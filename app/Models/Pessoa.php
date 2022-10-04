@@ -12,6 +12,6 @@ class Pessoa extends Model
 
     protected $table = 'pessoas';
     protected $primaryKey = 'id_pessoas';
-    protected $dates = 'dt_nascimento';
+    protected $dates = ['dt_nascimento', 'created_at', 'update_at'];
     protected $fillable = ['nome','sobrenome','dt_nascimento','email'];
 }
