@@ -16,7 +16,7 @@ use App\Http\Controllers\PessoaController;
 */
 
 Route::get('/', function () {
-    return redirect()->route('dashboard');
+    return redirect()->route('pessoa.index');
 });
 
 // Route::get('/dashboard', function () {

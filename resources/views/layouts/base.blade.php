@@ -30,7 +30,7 @@
         {{-- MENU --}}        
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="{{ route('pessoa.index') }}">
                     Cadastro de Pessoa
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavFluxo"
